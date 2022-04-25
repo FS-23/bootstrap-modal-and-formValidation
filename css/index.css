@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(234, 234, 249);
+
+}
+
+:root{
+   
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/fonts/Poppins-Light.ttf);
+}
+
+*{
+    font-family: "Poppins", sans-serif; 
+}
+
+.app-content{
+   /* margin: 15px;*/
+}
+
+
+.round-img-sm {
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.error-input {
+    border-color: red !important
+}
